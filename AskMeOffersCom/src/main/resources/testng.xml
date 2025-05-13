@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AskmeOffers">
+  <test name="PageObjectModel">
+    <classes>
+     <class name="Tests.HomePageTest"/>
+     <class name="Tests.AboutUsPageTest"/>
+     <class name="Tests.OurHistoryPageTest"/>
+      <class name="Tests.BreakingNewsPageTest"/>
+      <class name="Tests.EcommerceNewsPageTest"/>
+       <class name="Tests.HealthPageTest"/>
+      <class name="Tests.TechPageTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AskmeOffers]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PageObjectModel(failed)">
+    <classes>
+      <class name="Tests.TechPageTest">
+        <methods>
+          <include name="TestResult"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="TechTest"/>
+        </methods>
+      </class> <!-- Tests.TechPageTest -->
+      <class name="Tests.HealthPageTest">
+        <methods>
+          <include name="HealthTest"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="TestResult"/>
+        </methods>
+      </class> <!-- Tests.HealthPageTest -->
+      <class name="Tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="HomeTest"/>
+          <include name="TestResult"/>
+        </methods>
+      </class> <!-- Tests.HomePageTest -->
+      <class name="Tests.AboutUsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="AboutUsTest"/>
+          <include name="endReport"/>
+          <include name="TestResult"/>
+        </methods>
+      </class> <!-- Tests.AboutUsPageTest -->
+    </classes>
+  </test> <!-- PageObjectModel(failed) -->
+</suite> <!-- Failed suite [AskmeOffers] -->

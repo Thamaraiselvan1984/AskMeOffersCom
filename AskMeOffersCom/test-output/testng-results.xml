@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-30T14:23:03 IST" name="AskmeOffers" finished-at="2025-01-30T14:25:18 IST" duration-ms="134054">
+    <groups>
+    </groups>
+    <test started-at="2025-01-30T14:23:03 IST" name="PageObjectModel" finished-at="2025-01-30T14:25:18 IST" duration-ms="134054">
+      <class name="Tests.OurHistoryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.OurHistoryPageTest@75f95314]" started-at="2025-01-30T14:23:42 IST" name="setup" finished-at="2025-01-30T14:23:50 IST" duration-ms="8396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="OurHistoryTest()[pri:0, instance:Tests.OurHistoryPageTest@75f95314]" started-at="2025-01-30T14:23:50 IST" name="OurHistoryTest" finished-at="2025-01-30T14:23:56 IST" duration-ms="5576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OurHistoryTest -->
+        <test-method is-config="true" signature="TestResult(org.testng.ITestResult)[pri:0, instance:Tests.OurHistoryPageTest@75f95314]" started-at="2025-01-30T14:23:56 IST" name="TestResult" finished-at="2025-01-30T14:23:56 IST" duration-ms="692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OurHistoryTest status=SUCCESS method=OurHistoryPageTest.OurHistoryTest()[pri:0, instance:Tests.OurHistoryPageTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.OurHistoryPageTest@75f95314]" started-at="2025-01-30T14:25:17 IST" name="endReport" finished-at="2025-01-30T14:25:17 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.OurHistoryPageTest -->
+      <class name="Tests.HealthPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.HealthPageTest@495fac5f]" started-at="2025-01-30T14:24:34 IST" name="setup" finished-at="2025-01-30T14:24:49 IST" duration-ms="14690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HealthTest()[pri:0, instance:Tests.HealthPageTest@495fac5f]" started-at="2025-01-30T14:24:49 IST" name="HealthTest" finished-at="2025-01-30T14:24:56 IST" duration-ms="7388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HealthTest -->
+        <test-method is-config="true" signature="TestResult(org.testng.ITestResult)[pri:0, instance:Tests.HealthPageTest@495fac5f]" started-at="2025-01-30T14:24:56 IST" name="TestResult" finished-at="2025-01-30T14:24:58 IST" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HealthTest status=SUCCESS method=HealthPageTest.HealthTest()[pri:0, instance:Tests.HealthPageTest@495fac5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.HealthPageTest@495fac5f]" started-at="2025-01-30T14:25:17 IST" name="endReport" finished-at="2025-01-30T14:25:17 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.HealthPageTest -->
+      <class name="Tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.HomePageTest@737a135b]" started-at="2025-01-30T14:23:04 IST" name="setup" finished-at="2025-01-30T14:23:13 IST" duration-ms="9410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomeTest()[pri:0, instance:Tests.HomePageTest@737a135b]" started-at="2025-01-30T14:23:13 IST" name="HomeTest" finished-at="2025-01-30T14:23:26 IST" duration-ms="13080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeTest -->
+        <test-method is-config="true" signature="TestResult(org.testng.ITestResult)[pri:0, instance:Tests.HomePageTest@737a135b]" started-at="2025-01-30T14:23:26 IST" name="TestResult" finished-at="2025-01-30T14:23:27 IST" duration-ms="1228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomeTest status=SUCCESS method=HomePageTest.HomeTest()[pri:0, instance:Tests.HomePageTest@737a135b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.HomePageTest@737a135b]" started-at="2025-01-30T14:25:17 IST" name="endReport" finished-at="2025-01-30T14:25:17 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.HomePageTest -->
+      <class name="Tests.AboutUsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AboutUsPageTest@63f8276e]" started-at="2025-01-30T14:23:27 IST" name="setup" finished-at="2025-01-30T14:23:35 IST" duration-ms="7750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AboutUsTest()[pri:0, instance:Tests.AboutUsPageTest@63f8276e]" started-at="2025-01-30T14:23:35 IST" name="AboutUsTest" finished-at="2025-01-30T14:23:41 IST" duration-ms="5822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUsTest -->
+        <test-method is-config="true" signature="TestResult(org.testng.ITestResult)[pri:0, instance:Tests.AboutUsPageTest@63f8276e]" started-at="2025-01-30T14:23:41 IST" name="TestResult" finished-at="2025-01-30T14:23:42 IST" duration-ms="779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUsTest status=SUCCESS method=AboutUsPageTest.AboutUsTest()[pri:0, instance:Tests.AboutUsPageTest@63f8276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.AboutUsPageTest@63f8276e]" started-at="2025-01-30T14:25:16 IST" name="endReport" finished-at="2025-01-30T14:25:17 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.AboutUsPageTest -->
+      <class name="Tests.TechPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TechPageTest@76012793]" started-at="2025-01-30T14:24:58 IST" name="setup" finished-at="2025-01-30T14:25:10 IST" duration-ms="12001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TechTest()[pri:0, instance:Tests.TechPageTest@76012793]" started-at="2025-01-30T14:25:10 IST" name="TechTest" finished-at="2025-01-30T14:25:15 IST" duration-ms="5582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TechTest -->
+        <test-method is-config="true" signature="TestResult(org.testng.ITestResult)[pri:0, instance:Tests.TechPageTest@76012793]" started-at="2025-01-30T14:25:15 IST" name="TestResult" finished-at="2025-01-30T14:25:16 IST" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TechTest status=SUCCESS method=TechPageTest.TechTest()[pri:0, instance:Tests.TechPageTest@76012793] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.TechPageTest@76012793]" started-at="2025-01-30T14:25:17 IST" name="endReport" finished-at="2025-01-30T14:25:18 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.TechPageTest -->
+      <class name="Tests.BreakingNewsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BreakingNewsPageTest@6127a7e]" started-at="2025-01-30T14:23:56 IST" name="setup" finished-at="2025-01-30T14:24:05 IST" duration-ms="9095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BreakingNewsTest()[pri:0, instance:Tests.BreakingNewsPageTest@6127a7e]" started-at="2025-01-30T14:24:05 IST" name="BreakingNewsTest" finished-at="2025-01-30T14:24:12 IST" duration-ms="6211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BreakingNewsTest -->
+        <test-method is-config="true" signature="TestResult(org.testng.ITestResult)[pri:0, instance:Tests.BreakingNewsPageTest@6127a7e]" started-at="2025-01-30T14:24:12 IST" name="TestResult" finished-at="2025-01-30T14:24:12 IST" duration-ms="917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BreakingNewsTest status=SUCCESS method=BreakingNewsPageTest.BreakingNewsTest()[pri:0, instance:Tests.BreakingNewsPageTest@6127a7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.BreakingNewsPageTest@6127a7e]" started-at="2025-01-30T14:25:17 IST" name="endReport" finished-at="2025-01-30T14:25:17 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.BreakingNewsPageTest -->
+      <class name="Tests.EcommerceNewsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.EcommerceNewsPageTest@6bbe2511]" started-at="2025-01-30T14:24:12 IST" name="setup" finished-at="2025-01-30T14:24:23 IST" duration-ms="10944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EcommerceNewsTest()[pri:0, instance:Tests.EcommerceNewsPageTest@6bbe2511]" started-at="2025-01-30T14:24:23 IST" name="EcommerceNewsTest" finished-at="2025-01-30T14:24:33 IST" duration-ms="9989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcommerceNewsTest -->
+        <test-method is-config="true" signature="TestResult(org.testng.ITestResult)[pri:0, instance:Tests.EcommerceNewsPageTest@6bbe2511]" started-at="2025-01-30T14:24:33 IST" name="TestResult" finished-at="2025-01-30T14:24:34 IST" duration-ms="919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EcommerceNewsTest status=SUCCESS method=EcommerceNewsPageTest.EcommerceNewsTest()[pri:0, instance:Tests.EcommerceNewsPageTest@6bbe2511] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.EcommerceNewsPageTest@6bbe2511]" started-at="2025-01-30T14:25:17 IST" name="endReport" finished-at="2025-01-30T14:25:17 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.EcommerceNewsPageTest -->
+    </test> <!-- PageObjectModel -->
+  </suite> <!-- AskmeOffers -->
+</testng-results>
