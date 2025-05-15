@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" AskMeOffer HomePageTest" verbose = "4" thread-count = "1" parallel="true" >
+  <listeners>
+  <listener class-name="Rerun.AnnotationTransformer"></listener>
+  </listeners>
+  <test name="AskMeOfferLinkTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="AskMeOfferLinkTest"/>
+      </methods>
+    </classes>
+    </test>
+    <test name="SearchBarTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="SearchBarTest"/>
+      </methods>
+    </classes>
+    </test>
+    <test name="CarouselDisplayTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="CarouselDisplayTest"/>
+      </methods>
+    </classes>
+    </test>
+    <test name="SocialNavigationLinkTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="SocialNavigationLinkTest"/>
+      </methods>
+    </classes>
+    </test>
+    <test name="PromocodeframeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="PromocodeframeTest"/>
+      </methods>
+    </classes>
+    </test>
+    <test name="CouponslinkTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="CouponslinkTest"/>
+      </methods>
+    </classes>
+    </test>
+    <test name="FlexCliplinkTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="FlexCliplinkTest"/>
+      </methods>
+    </classes>
+     </test>
+    <test name="SearchResultPageTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="SearchResultPageTest"/>
+      </methods>
+      </classes>
+    </test>
+    <test name="WebTableTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="WebTableTest"/>
+      </methods>
+      </classes>
+    </test>
+    <test name="TopDealsTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage"/>
+      <methods>
+      <include name="TopDealsTest"/>
+      </methods>
+      </classes>
+    </test>
+   </suite> <!-- Suite -->

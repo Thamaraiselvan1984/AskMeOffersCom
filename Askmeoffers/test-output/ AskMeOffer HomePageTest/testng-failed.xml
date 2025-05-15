@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [ AskMeOffer HomePageTest]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="Rerun.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="AskMeOfferLinkTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="AskMeOfferLinkTest"/>
+          <include name="setup"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- AskMeOfferLinkTest(failed) -->
+  <test thread-count="1" parallel="methods" name="SearchBarTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="SearchBarTest"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- SearchBarTest(failed) -->
+  <test thread-count="1" parallel="methods" name="CarouselDisplayTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="CarouselDisplayTest"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- CarouselDisplayTest(failed) -->
+  <test thread-count="1" parallel="methods" name="SocialNavigationLinkTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="SocialNavigationLinkTest"/>
+          <include name="setup"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- SocialNavigationLinkTest(failed) -->
+  <test thread-count="1" parallel="methods" name="PromocodeframeTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="PromocodeframeTest"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- PromocodeframeTest(failed) -->
+  <test thread-count="1" parallel="methods" name="CouponslinkTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="CouponslinkTest"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- CouponslinkTest(failed) -->
+  <test thread-count="1" parallel="methods" name="FlexCliplinkTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="FlexCliplinkTest"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- FlexCliplinkTest(failed) -->
+  <test thread-count="1" parallel="methods" name="SearchResultPageTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="SearchResultPageTest"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- SearchResultPageTest(failed) -->
+  <test thread-count="1" parallel="methods" name="WebTableTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="WebTableTest"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- WebTableTest(failed) -->
+  <test thread-count="1" parallel="methods" name="TopDealsTest(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Pages.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="CheckStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="TopDealsTest"/>
+          <include name="generateExtentReport"/>
+        </methods>
+      </class> <!-- Pages.HomePage -->
+    </classes>
+  </test> <!-- TopDealsTest(failed) -->
+</suite> <!-- Failed suite [ AskMeOffer HomePageTest] -->
